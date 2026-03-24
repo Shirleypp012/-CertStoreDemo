@@ -49,7 +49,6 @@ dotnet run
 
 📂 项目结构
 
-text
 CertStoreDemo/
 ├── Program.cs                  # 主程序逻辑：加载 PFX，打印证书信息
 ├── CertStoreDemo.exe           # 编译后的可执行文件
