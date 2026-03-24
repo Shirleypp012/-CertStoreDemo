@@ -48,13 +48,11 @@ dotnet run
 密码：如果程序运行时提示输入密码，请检查 Program.cs 中的硬编码密码，或在控制台输入测试密码（通常是 123456 或空，具体视代码而定）。
 
 ## 📂 项目结构
-
+```text
 CertStoreDemo/
-├── Program.cs # 主程序逻辑：加载 PFX，打印证书信息
-├── CertStoreDemo.exe # 编译后的可执行文件
-├── CursorCertDemo.pfx # 测试用的数字证书文件 (含私钥)
-├── CertStoreDemo.csproj # 项目配置文件
-└── README.md # 本说明文档
+├── Program.cs              # 主程序
+├── CertStoreDemo.exe       # 可执行文件
+└── README.md               # 说明文档
 
 🔍 核心代码逻辑简述
 
